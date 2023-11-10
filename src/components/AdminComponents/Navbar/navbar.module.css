@@ -1,0 +1,79 @@
+.nav {
+  background-color: white;
+  padding: 0.6rem;
+  min-width: 250px;
+  height: 100vh;
+  flex-direction: column;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: rgb(42, 61, 115);
+}
+
+.btn-toggle {
+  display: none;
+}
+
+
+
+@media screen and (min-width: 900px) {
+  .admin-dropdown {
+    bottom: 20px !important;
+    top: initial;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+
+  .show-custom {
+    display: block !important;
+
+  }
+
+  .fade-custom {
+    display: none !important;
+  }
+
+  .nav,
+  .nav ul {
+    flex-direction: row !important;
+  }
+
+  .btn-toggle {
+    display: block;
+    color: white;
+  }
+
+  .btn-toggle svg {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .btn-toggle svg:hover {
+    color: rgb(170, 206, 53);
+  }
+
+  .nav .ul {
+    position: absolute;
+    height: 100vh;
+    z-index: 10;
+    width: 100%;
+    background-color: rgb(20, 18, 18);
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 20px;
+  }
+
+  .nav {
+    height: initial;
+    padding: 0.5rem !important;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+}

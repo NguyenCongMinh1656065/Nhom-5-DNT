@@ -1,0 +1,41 @@
+.profile {
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+.avt-change-btn {
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avt {
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  max-width: 250px;
+  border-radius: 50%;
+  border: 3px solid #b799ff;
+  box-shadow: 0 0 3px #f266ab;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    flex-direction: column;
+  }
+}

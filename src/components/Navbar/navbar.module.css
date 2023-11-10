@@ -1,0 +1,59 @@
+#dropdown-menu {
+  left: -270%;
+  top: 50%;
+}
+
+
+#dropdown-menu div {
+  cursor: pointer;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.nav {
+  background-color: #f5f5f5;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.cart-btn {
+  margin: 0 10px;
+}
+
+.flex-end {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+  font-size: medium;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 0 !important;
+}
+
+.search-phone {
+  display: inline-block;
+  width: 80%;
+  margin: 0 !important;
+}
+
+.shopping-cart {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 575.5px) {
+  .search-lap {
+    display: none !important;
+  }
+
+  .flex-end {
+    flex: 1;
+  }
+}

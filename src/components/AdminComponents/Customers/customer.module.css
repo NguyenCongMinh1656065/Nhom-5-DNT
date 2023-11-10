@@ -1,0 +1,47 @@
+.container-customer {
+    background-color: #fff;
+    max-width: 100vw;
+    min-height: 900px;
+}
+
+
+
+.max-5-characters {
+    max-width: 5ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.customer-table::-webkit-scrollbar {
+    height: 6px;
+}
+
+.customer-table th {
+    white-space: nowrap;
+}
+
+.customer-table {
+    overflow-x: auto;
+    flex: 1;
+}
+
+.customer-table td:not(:last-child) {
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 900px) {
+    .customer-table {
+        width: calc(100vw - 276px);
+    }
+}
+
+.form-container {
+    @media (max-width: 576px) {
+        flex-direction: column;
+    }
+}
+
+.form-container input {
+    margin-right: 5px;
+}

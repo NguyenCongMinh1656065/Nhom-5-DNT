@@ -1,0 +1,11 @@
+.editable {
+  position: relative;
+}
+
+.editable .icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  cursor: pointer;
+  transform: translateY(-50%);
+}

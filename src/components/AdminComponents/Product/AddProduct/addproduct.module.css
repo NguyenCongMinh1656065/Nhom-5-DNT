@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 60px;
+}
+
+.border-right {
+  padding-right: 10px;
+  border-right: 1px solid green;
+}
+
+.card {
+  box-shadow: 0 0 10px 1px rgb(195, 195, 195);
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.carousel {
+  max-width: 300px;
+}
+
+.text-group {
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 20px;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .text-group {
+    width: 100%;
+  }
+}

@@ -1,0 +1,20 @@
+.password-input .is-invalid {
+  background-image: none;
+
+}
+
+.password-input {
+  position: relative;
+}
+
+
+.password-input .eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 11.5px;
+  padding: 0;
+  margin: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}

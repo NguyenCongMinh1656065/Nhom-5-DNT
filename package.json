@@ -1,0 +1,37 @@
+{
+  "name": "clothesshop",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tippyjs/react": "^4.2.6",
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
+    "crypto-js": "^4.1.1",
+    "date-fns": "^2.30.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-datepicker": "^4.12.0",
+    "react-dom": "^18.2.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-query": "^3.39.3",
+    "react-router": "^6.10.0",
+    "react-router-dom": "^6.10.0",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/react": "^18.0.15",
+    "@types/react-datepicker": "^4.11.2",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0"
+  }
+}

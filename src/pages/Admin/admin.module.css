@@ -1,0 +1,13 @@
+.admin {
+  flex-direction: row;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.main {}
+
+@media screen and (max-width: 900px) {
+  .admin {
+    flex-direction: column !important;
+  }
+}
